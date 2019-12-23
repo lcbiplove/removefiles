@@ -21,6 +21,12 @@ Open the zip file and edit .cpp file with your favourite IDE. Change the passwor
 ```
 Compile the file. Now, place the file in the folder you want to delete.
 
+## Limitations
+
+1.The file you want to delete mustn't have readonly attribute in properties.
+	- To make all files in a folder attribute <b>uncheck readme</b> from the parent folder.
+2.The directory shouldn't have <b>whitespace</b> character
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
